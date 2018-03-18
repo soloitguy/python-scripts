@@ -59,7 +59,7 @@ elif (platformOS == "Darwin"):
         subprocess.call(["open", "-a", file_to_open])
     
     elif (choice == 2):
-        file_to_open = "/Applications/Atom.app"
+        file_to_open = "/Applications/Visual Studio Code.app"
         import subprocess
         subprocess.call(["open", "-a", file_to_open]) 
         print "Happy Coding!" 
